@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2021_12_21_231919) do
     t.string "picture_url"
     t.decimal "initial_price"
     t.decimal "final_price"
-    t.bigint "buyer_id", null: false
+    t.bigint "buyer_id"
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
