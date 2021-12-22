@@ -19,7 +19,7 @@ end
 
 
 
-Product.create!(user: User.all.sample, name: 'Tesla Model 3', picture_url: 'https://www.tesla.com/content/dam/tesla-site/sx-redesign/img/model3-proto/specs/compare-model3--left.png', initial_price: 60_000)
+Product.create!(user: User.all.sample, name: 'Tesla Model 3', picture_url: 'https://cdn.motor1.com/images/mgl/XkXRV/s1/tesla-model-3.jpg', initial_price: 60_000)
 
 Product.create!(user: User.all.sample, name: 'Lexus ES 350', picture_url: 'https://www.cstatic-images.com/car-pictures/xl/usc60lec161a021001.png', initial_price: 35_000)
 
