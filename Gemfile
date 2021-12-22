@@ -37,6 +37,7 @@ gem "redis", "~> 4.0"
 gem 'devise'
 gem 'httparty'
 gem 'simple_form'
+gem 'local_time'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
