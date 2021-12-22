@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  skip_before_action :authenticate_user!, only: [:index]
   before_action :set_product, only: %i[show]
   def index
     @products = Product.in_auction.all
