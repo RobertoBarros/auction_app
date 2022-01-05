@@ -8,7 +8,7 @@
     <small>Auctioned by <%= @product.user.name %></small>
     <div class="my-3"></div>
     <p class="text-secondary">Initial Price: <strong><%= number_to_currency(@product.initial_price) %></strong></p>
-    <h4 class="text-success">Current Price: <strong><span id='current-price'><%= number_to_currency(@product.final_price) %></span></strong></h4>
+    <h4 class="text-success">Current Price: <strong><span><%= number_to_currency(@product.final_price) %></span></strong></h4>
     <% if @product.user == current_user %>
       <button class="btn btn-success btn-block">End Auction</button>
     <% else %>
@@ -22,6 +22,6 @@
 </div>
 
 <h2>Bids</h2>
-<ul class="list-group" id='bids' data-product-id='<%= @product.id %>' >
+<ul class="list-group" id='bids'>
   <%= render @bids %>
 </ul>
