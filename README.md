@@ -1,1 +1,1 @@
-# Simple exemple of Ruby on Rails Auction App
+# Simple example of Ruby on Rails Auction App
